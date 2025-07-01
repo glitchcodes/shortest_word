@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/core"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12"
+    },
+    "bin": [
+        "src/index.php"
+    ]
+}
