@@ -30,7 +30,7 @@ if (!empty($_POST['sentence'])) {
 
         <form method="POST">
             <label style="margin-bottom: 8px;">Sentence</label><br>
-            <textarea rows="4" name="sentence"></textarea><br><br>
+            <input type="text" name="sentence" /><br><br>
 
             <input type="submit" value="Submit">
         </form>
