@@ -3,12 +3,10 @@
 /**
  * Shortest Word Detector
  *
- * NOTE: This could be run in CLI or normally in browser
- *
  * CLI Mode
  *
  * Run this file in CLI with this example
- * `php main.php -s "example string" -c`
+ * `php src/cli.php -s "example string" -c`
  *
  * Arguments
  * -s or --string = A string you want to check
@@ -23,7 +21,7 @@ use Core\ShortestWord;
 $is_web = http_response_code() !== FALSE;
 
 if ($is_web) {
-    echo "Run from web";
+    include 'web.php';
 } else {
     $options = getopt("s:c", ["string:clean"]);
 

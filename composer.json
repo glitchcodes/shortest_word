@@ -8,6 +8,6 @@
         "phpunit/phpunit": "12"
     },
     "bin": [
-        "src/main.php"
+        "src/cli.php"
     ]
 }
